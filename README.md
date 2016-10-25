@@ -4,8 +4,8 @@ Node-sass binaries are hosted on github, and their links are redirected to AWS. 
 ## Environment variable
 `export SASS_BINARY_SITE=https://github.com/aversini/node-sass-binaries/raw/master/`
 
-## .npmrc configuration file:
-`sass_binary_site=https://github.com/aversini/node-sass-binaries/raw/master/`
+## .npmrc configuration file
+`npm config set sass_binary_site https://github.com/aversini/node-sass-binaries/raw/master/`
 
 ## Process argument
 `npm install node-sass --SASS_BINARY_SITE=https://github.com/aversini/node-sass-binaries/raw/master/`
